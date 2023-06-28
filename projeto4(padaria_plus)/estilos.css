@@ -1,0 +1,57 @@
+
+body{
+    background-color: whitesmoke;
+}
+.inicio , .sobre, .produtos, .contatos{
+   text-align: center;
+    background-color: white;
+    margin: 20px auto 20px auto;
+    width: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inicio{
+    border-bottom: solid rgb(247, 121, 32) 1px ;
+    padding-bottom: 25px;
+}
+.sobre img{
+    width: 700px;
+    margin: 0px auto;
+}
+.produtos{
+    background-color: #ed8e37;
+    padding:20px 0px 5px 0px;
+}
+.produtos img{
+    width: 400px;
+}
+.produtos p{
+    color: white;
+    font-size: 15px;
+    line-height:28px ;
+    padding: 10px 100px ;
+}
+.produtos h2 ,h3{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.logo{
+    width: 200px;
+}
+h1{
+    font-size: 28px;
+
+}
+h2{
+    font-size: 18px;
+    color:#ed8e37;
+}
+p{
+    text-align: center;
+    font-size: 13px;
+    line-height: 25px;
+}
+a{
+    font-size: 13px;
+    color:#542f0c;
+}

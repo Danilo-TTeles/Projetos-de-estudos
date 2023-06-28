@@ -1,0 +1,50 @@
+body{
+    background-color: #f1f1f1;
+}
+div{
+    text-align: center;
+    width: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+
+}
+img{
+    width: 190px;
+}
+h1{
+    border:solid #606062 5px ;
+    font-size: 24px;
+    padding: 10px;
+    color: #606062;
+}
+h2{
+    font-size: 20px;
+    color: #7a797b;
+    margin: 35px 20px;
+}
+.servico-contato{
+    font-size: 18px;
+    font-weight: normal;
+    border-bottom: solid 2px #606062;
+    border-top: solid 2px #606062;
+    
+}
+p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #616163;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+
+a{
+    margin-top: 15px;
+    border: solid;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(4, 161, 4);
+
+}
