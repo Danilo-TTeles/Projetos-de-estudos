@@ -7,7 +7,7 @@ font-family: 'fredoka', sans-serif;
     font-size: 22px;
     font-weight: bold;
 }
-    .banner{
+.banner{
     background-image: url("img/capa.jpg");
     background-size: cover;
     width: 100%;
@@ -28,16 +28,27 @@ font-family: 'fredoka', sans-serif;
 .sobre-nos, .atuacao, .fale-conosco, .topo{
     text-align: justify;
     margin: 0 auto;
-    width: 700px; 
-
-}
+    width: 700px;
+    }
 .sobre-nos, .atuacao, .fale-conosco{
     margin-bottom: 40px;
     margin-top: 40px;
 }
-.galeria figure img{
-   width: 200px;
-   display: inline;
+.sobre-nos div{
+    width: 700px;
+    height:150px; 
+}
+.galeria {
+    width: 230px;
+    height: 100%;
+    
+    
+    
+    
+    
+    
+    
+  
 }
 .fundo-img {
     text-align: center;

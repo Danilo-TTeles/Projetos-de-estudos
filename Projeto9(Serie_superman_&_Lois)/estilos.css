@@ -1,0 +1,72 @@
+body{
+    margin: 0px 0px;
+    font-family: sans-serif;
+}
+.topo {    
+    background-color :#4710c1;
+    height: 50px;
+    width: 100vw;
+}
+.topo h1, .topo a{
+    display: inline;
+}
+.topo a{
+    border-radius: 25px;
+    border: 1px solid black none;
+    padding: 3px 10px;
+    margin-left: 20px;
+    background-color: aliceblue;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+.topo h1{
+   color: aliceblue;
+   font-size: 20px;
+   font-weight:normal ;
+   position: absolute;
+   left:13%;
+}
+.links{
+    position: absolute;
+    left: 27%;
+    top: 2%;
+} 
+.banner {
+    width:100vw;
+}
+.banner img{
+    width: 100%;
+}
+.sinopse, .disponibilidade, .galeria{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 28px;
+}
+.sinopse h2, .disponibilidade h2{
+    text-align: center;
+}
+.disponibilidade img{
+    width: 100%;
+}
+.imagens{
+    overflow-x: scroll;
+    display: flex;
+    margin: 0 auto 20px auto;
+}
+.imagens img{
+    width: 315px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px #939393;
+}
+.rodape{
+    width: 100vw;
+    height: 40px;
+    background-color: #4710c1;
+    text-align: center;
+    padding-top:1px;
+    color: aliceblue;
+    font-size: 16px;
+}
