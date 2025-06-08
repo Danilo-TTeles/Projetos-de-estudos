@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/banner-topo.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+.logo{
+    width: 400px;
+    text-align: justify;
+    padding: 30px;
+    font-size: 15px;  
+}
+.logo div{
+    display: flex;
+    height: 50px;
+}
+.logo p {
+    margin: 10px;
+}
+h1, .logo p, .transparente p, .Servicos p, .Servicos h2, .localizacao h2, .localizacao p, .parceiros h2{
+    color:#3c184e;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+h2{
+    text-align: center;
+}
+.transparente{
+    max-width: 1024px;
+    margin: auto;
+    box-shadow:0px 0px 10px #3c184e;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgba(215,208,205, 0.5);
+    padding: 40px;
+    
+    
+}
+.transparente img{
+    width: 50px;
+}
+.transparente p{
+    font-size:60px ;
+    
+    margin:0 100px;
+    padding: 40px 0;
+
+}
+.whats{
+    text-decoration: none;
+    background-color: #3c184e;
+    width: 30%;
+    border-radius: 8px;
+    margin: auto;
+    padding: 5px 0px;
+    
+}
+.whats a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.whats img{
+    width: 20px;
+}
+.limite{
+    max-width: 800px;
+    margin: auto;
+}
+.Servicos, .redes-sociais, .parceiros, .localizacao{
+    margin: 50px auto;
+    text-align: center;
+}
+.Servicos span{
+    font-weight: bold;
+}
+.Servicos img, iframe{
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 1px rgb(70, 69, 69);
+}
+ul{
+    text-align: justify;
+    margin: 30px auto;
+    width: 90%;
+}
+li{
+    margin: 20px 0;
+}
+.redes-sociais{
+    padding: 100px 0;
+}
+.redes-sociais p{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 500;
+}
+.redes-sociais span{
+    font-weight: 800;
+}
+.redes-sociais, .rodape{
+    background-color: #3c184e;
+}
+.redes-sociais img{
+    width: 50px;
+    margin: 30px  10px;
+
+}
+.localizacao h2, .localizacao p{
+    margin-bottom: 20px;
+}
+iframe{
+    width: 100%;
+}
+.rodape{
+    padding: 20px 0;
+}
+.rodape .limite{
+    text-align: center;
+}
+.rodape img{
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: -8px;
+}
+.rodape img:hover{
+    box-shadow:0 0 10px 2px #c4a47c;
+}
+.rodape p{
+    color: aliceblue;
+    font-size: 12px;
+}
+.rodape span{
+    font-size: 14px;
+}

@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    position: fixed;
+    
+    
+}
+.section1{
+    font-family:'Ysabeau Infant', sans-serif ;
+    z-index: 2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    
+}
+.section1 h1, h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-shadow: 0px 6px 4px   black;
+    color: #fff;
+}
+.section1 h1::after{
+    content:" ";
+    background-image: url("../assets/verificado.png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+   margin: 35px 0; 
+    
+}
+.section1 h1::before{
+    content: "";
+    background-color: #ffdf00;
+    position: absolute;
+    width: 55px;
+    height: 5px;
+    margin-top: 63px;
+    margin-left: 5px;
+    background: linear-gradient(90deg, #ffdf00, #009c3b);
+    border-radius: 5px;
+}
+.section1 nav{
+    display: flex;
+    flex-direction: column; 
+    font-size: 18px;   
+}
+.section1 nav a{
+    text-decoration: none;
+      color: #fff;
+      margin: 10px 0;
+      background-color: rgba(48, 46, 46, 0.5);
+      padding: 5px 200px;
+      border-radius: 20px;
+      font-weight: 500;
+}
+.section1 nav a:hover{
+    background-color: #fff;
+    color: black;
+}
+.section1 .borda img{
+    width: 100%;
+    border-radius: 100%;
+    
+    
+}
+.section1 .borda div{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    padding: 4px;
+
+}
+.section1 .borda{
+   width: 200px;
+   height: 200px;
+   background: linear-gradient(90deg, #ffdf00, #009c3b);
+   border-radius: 100%;
+}
+
+
+.section1 nav a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 600;
+    
+}
+.section1 nav a img{
+    width: 21px;
+    position: relative;
+    right: 190px;
+    top: 1px;
+    
+}
+.section2{
+    font-family: 'Montserrat',sans-serif ;
+    text-align: center;
+   
+    
+}
+.section2 table{
+    font-size: 14px;
+    line-height: 30px;
+    
+}
+.section2 table img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+
+}
+.section2 table .logo{
+    text-align: justify;
+    display: flex;
+    align-items: center;
+
+}
+th, tr, td{
+    padding: 5px 10px;
+    border: 1px solid rgb(39, 38, 38, 0.5);
+}
+tr:nth-of-type(odd){
+    background-color: rgba(48, 46, 46, 0.9);
+    color: #fff;
+}
+tr:nth-of-type(even){
+    background-color: rgba(206, 203, 203, 0.9);
+    color: #000;
+    font-weight: 600;
+}
+.background2{
+    background: url('../assets/imagem-de-fundo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

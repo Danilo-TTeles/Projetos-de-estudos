@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+header{
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(20, 20, 20);
+}
+nav a{
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+.banner {
+    width:100%;
+    height: 100vh;
+    background-image: url('../img/capa.jpg');
+}
+h1, h2, h3{
+    text-align: center;
+} 
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 25px;
+    margin-top: 30px;
+}
+h3{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+p{
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px 0;
+    color: rgb(82, 81, 81);
+}
+.primeira-secao, .segunda-secao, .terceira-secao, .quarta-secao {
+    max-width: 1024px;
+    margin:30px  auto;
+    padding: 0 30px;
+    min-height: 300px;
+    
+}
+.segunda-secao h2, .quarta-secao h2, .segunda-secao p, .quarta-secao p, .fundo p, nav a{
+    color: #fff;
+    
+}
+.logomarcaimg{
+    text-align: center;
+    
+}
+.logomarcaimg img{
+    max-width: 500px;
+    box-shadow: 0 0 10px 2px #fff;
+    margin: 20px 0;
+    
+}
+.galeria{
+    height:250px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.paragrafos{
+    box-shadow: 0 0 10px 1px  gray;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 10px ;
+    background-color: #ededed;
+}
+.paragrafos p{
+    font-size: 15px;
+}
+.card{
+    display:inline-block;
+    margin: 0px 5px;
+    border-radius: 10px;   
+}
+.card img{
+    width: 100%;
+    max-width: 300px;
+    min-height: 200px;
+    box-shadow: 0 0 10px #fff;
+    margin: 10px;
+    border-radius: 10px;
+}
+.fundo{
+    background-color: #302136;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow:0 0 10px #fff;
+    
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.limite{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    
+}
+.pedidos{
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px 0 ;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+    background-color:brown;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: relative;
+    bottom: -30px;
+    right: -400px;
+}
+.icone{
+    background-color: brown;
+    width: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    color: yellow;
+    font-weight: bold;
+    position: relative;
+    top: -40px;
+    left: -15px;
+}
